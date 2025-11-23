@@ -1,0 +1,18 @@
+#titulo {
+    text-align: center;
+}
+
+.lugar {
+    display: flex;
+    border: 2px solid gray;
+}
+
+.imagens {
+    width: 300px;
+    height: 400px;
+}
+
+.text {
+
+    text-align: left;
+}

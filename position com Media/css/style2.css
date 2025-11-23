@@ -1,0 +1,66 @@
+.noticia_destaque {
+    display: flex;
+    flex-direction: row; /* exibe lado a lado em telas grandes */
+}
+
+.noticia_destaque figure {
+    width: 30%; /* cada figure ocupa 30% */
+    position: relative; /* permite posicionar overlay e legenda */
+}
+
+.noticia_destaque figure img {
+    width: 100%;
+    height: 300px; /* altura fixa */
+    object-fit: cover; /* corta a imagem mantendo proporção */
+    position: relative;
+    z-index: 1; /* imagem fica atrás da camada transparente */
+}
+
+.noticia_destaque figure figcaption {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 3; /* legenda sempre por cima */
+}
+
+.noticia_destaque figure figcaption p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.transparente {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* cobre toda a imagem */
+    background-image: linear-gradient(to top, rgb(16, 16, 17), rgba(159, 229, 237, 0));
+    z-index: 2; /* entre a imagem e o texto */
+}
+
+/* ================= MEDIA QUERY 1 ================= */
+/* Até 768px → Layout de tablet */
+@media (max-width: 768px) {
+    .noticia_destaque {
+        flex-direction: column; /* empilha as figuras em coluna */
+        align-items: center; /* centraliza */
+    }
+
+    .noticia_destaque figure {
+        width: 90%; /* ocupa quase toda a tela */
+        margin-bottom: 20px; /* espaço entre os blocos */
+    }
+}
+
+/* ================= MEDIA QUERY 2 ================= */
+/* Até 480px → Layout de celular pequeno */
+@media (max-width: 480px) {
+    .noticia_destaque figure img {
+        height: 200px; /* reduz altura da imagem */
+    }
+
+    .noticia_destaque figure figcaption p {
+        font-size: 14px; /* legenda menor para caber melhor */
+    }
+}

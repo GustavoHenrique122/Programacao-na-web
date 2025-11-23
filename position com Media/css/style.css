@@ -1,0 +1,43 @@
+
+
+.noticia_destaque{
+    display: flex;
+    flex-direction: row;
+}
+
+.noticia_destaque figure{
+    width: 30%;
+
+    position: relative;
+}
+
+.noticia_destaque figure img{
+    width: 100%;
+    max-height: 300px;
+}
+
+.noticia_destaque figure figcaption{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.noticia_destaque figure figcaption p{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.transparente{
+    position:absolute;
+    width: 100%;
+    height: 300px;
+    max-height: 300px;
+    background-image: linear-gradient(to top, rgb(16, 16, 17), rgba(159, 229, 237, 0));
+}
+
+
+
+
+
+

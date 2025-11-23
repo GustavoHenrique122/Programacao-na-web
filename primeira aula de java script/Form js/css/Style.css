@@ -1,0 +1,66 @@
+.titulo {
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: url('../images/fundo.webp');
+    background-size: cover;
+}
+
+.caixa {
+    transition: all 0.5s ease;
+    transform: translateY(120px);
+    background-color: #373A63;
+    border-radius: 20px;
+    width: 600px;
+    height: 80vh;
+    padding: 20px;
+    margin-left: 33.9%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.caixa.expandida {
+    height: 108vh;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.data {
+    font-size: 25px;
+    color: #ddd;
+    font-weight: bold;
+    transform: translateX(7px);
+}
+
+#bottooo {
+    margin-top: 25px;
+    margin-left: 85%;
+    font-weight: bold;
+    background-color: #ddd;
+    color: #112440;
+    padding: 3%;
+}
+
+#bottooo:hover {
+    background-color: #112440;
+    color: #ddd;
+}
+
+.form-floating {
+    padding: 10px;
+}

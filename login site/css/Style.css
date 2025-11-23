@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/fundo.jpg');
+    background-size: center;
+}
+
+.caixa {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 25px;
+    width: 350px;
+    height: 50vh;
+    text-align: center;
+    padding: 15px;
+}
+
+.caixa h2 {
+    color: white;
+}
+
+label {
+    display: flex;
+    margin-left: 32px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+input {
+    width: 80%;
+    margin-top: 20px;
+    outline: none;
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: pink;
+    color: white;
+}
+
+button {
+    width: 80%;
+    margin-top: 40px;
+    background: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+}
+
+p a {
+    color:white;
+}
