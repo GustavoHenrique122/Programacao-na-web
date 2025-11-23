@@ -1,0 +1,34 @@
+body{
+    background: #fff;
+}
+
+
+.coluna1de3{
+    /*background: rgb(253, 175, 249);*/
+    width:25%; /* largura*/ 
+    float:left;
+    border-radius: 8px;
+}
+
+.coluna1de3 img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.coluna1de3 a{
+    text-decoration: none;    
+    color:#c4170c;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*
+.circulo{
+    width:100px;
+    height: 100px;
+    background: rgb(81, 3, 137);
+    border-radius: 1070px;
+}
+*/
+
+

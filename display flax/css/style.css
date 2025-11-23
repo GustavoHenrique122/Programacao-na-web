@@ -1,0 +1,5 @@
+.img_destaque{
+    display: flex;
+    justify-content: center; /*alinhamento horizontal*/
+    align-items: center; /*alinhar verticalmente*/
+}

@@ -1,0 +1,122 @@
+body {
+    background: url('../images/teladefundocontato.jfif');
+    background-size: cover;
+    background-position-y: 11110px;
+}
+
+#logo {
+    height: 10vh;
+    width: 105px;
+}
+
+#pesquisa {
+    transform:translateY(10px) ;
+}
+
+footer {
+    background-color: #112440;
+    color: #ffffff;
+    padding: 64px 0 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footerquadrado {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 250px;
+    max-width: 1200px;
+    gap: 40px;
+}
+
+.footerlogo img{
+    width: 150px;
+    height: auto;
+}
+
+.footerlinks {
+    font-weight: bold;
+}
+
+.footerlinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footerlinks ul li {
+    margin: 8px 0;
+}
+
+.footerlinks a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.footerlinks a:hover {
+    color: #ffffff;
+}
+
+.footerbottom {
+    text-align: center;
+    border-top: 1px solid #ffffff44;
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+#buttombb {
+    background: #112440;
+    color:#ffffff;
+    font-weight: bold;
+    padding: 50%;
+    border: #112440;
+}
+
+#buttombb:hover {
+    background-color: #ffffff;
+    color: #112440;
+}
+
+.titulo {
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caixa {
+    background-color: rgba(17, 36, 64, 0.9);
+    border-radius: 25px;
+    width: 600px;
+    height: 40vh;
+    padding: 20px;
+    margin-left: 33.9%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+label {
+    margin-left: 32px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+#bottooo {
+    margin-top: 25px;
+    margin-left: 85%;
+    font-weight: bold;
+    background-color: #ddd;
+    color: #112440;
+    padding: 3%;
+}
+
+#bottooo:hover {
+    background-color: #112440;
+    color: #ddd;
+}
