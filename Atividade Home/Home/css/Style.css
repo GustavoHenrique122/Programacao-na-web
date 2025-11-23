@@ -1,0 +1,278 @@
+.menu {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pesquisa img:hover {
+    height: 90px;
+    width: auto;
+}
+
+.logo img:hover {
+    height: 450px;
+    width: auto;
+}
+
+.italia {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/Italia.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Imglaterra {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/Inglaterra.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.japao {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/Japão.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Alemanha {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/Alemanha.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Belgica {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/Bégica.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Suica {
+    font-family: Arial, sans-serif;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url('../images/Suica.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    z-index: 1000000000000000;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;          
+}
+
+.logo img{
+    width: 400px; 
+    height: auto;  
+}
+
+.pesquisa img{
+    position: absolute;
+    top: 60%;
+    left: 20px;               
+    transform: translateY(-50%);   /*move o item verticalmente*/            
+    align-items: center;
+    height: 10vh;
+    width: auto;
+    cursor: pointer;
+}
+
+.ponto {
+    display: flex;
+    position: absolute;
+}
+
+.turistico {
+    height: 60vh;
+    width: 19.5%;
+    float: left;
+    border-radius: 8px;
+    transform: translatey(200%);
+}
+
+
+.turiimg{
+    height: 300px;
+    width: 420px;
+    border-radius: 8px;
+}
+
+.turiimg2 {
+    height: 340px;
+    width: 520px;
+    border-radius: 8px;
+}
+
+.text {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    max-width: 370px;
+}
+
+.paises {
+    height: 35vh;
+    float: left;
+    border-radius: 8px;
+    transform: translateY(90%);
+}
+
+.paises2 {
+    height: 35vh;
+    float: left;
+    border-radius: 8px;
+    transform: translateY(100%);
+}
+
+.viagenm {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(65%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(167, 255, 255);
+}
+
+.viagensm {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(270%);
+    text-align: center;
+    font-size: 35px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.viagen {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(198%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(167, 255, 255);
+}
+
+.viagens {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(630%);
+    text-align: center;
+    font-size: 35px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.hotel {
+    height: 70vh;
+    width: 30%;
+    border-radius: 8px;
+    transform: translatey(250%); 
+}
+
+.hotelimg {
+    height: 400px;
+    width: 620px;
+    border-radius: 8px;
+    transform: translateX(170%);
+}
+
+.hoteltext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: -35px;
+    transform: translateY(-730%);
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(167, 255, 255);
+}
+
+.hoteltextp {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(-240%);
+    text-align: justify;
+    font-size: 40px;
+    width: 160%;
+    color: black;
+    margin-left: 100px;
+}
+
+.footerimg {
+    transform: translateY(75%);
+}
+
+.instaimg:hover {
+    height: auto;
+    width: 150px;
+}
+
+.instaimg {
+    height: auto;
+    width: 140px;
+    transform: translateY(225%);
+}
+
+footer p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(220px);
+    text-align: left;
+    max-width: 30%;
+    font-weight: bold;
+    margin-left: 9.3%;
+}
+
+.paisess p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transform: translateY(1800%);
+    text-align: left;
+    max-width: 30%;
+    font-weight: bold;
+    margin-left: 9.3%;
+}
+
+
+.footerimgp {
+    transform: translateY(240%);
+}
+
+.instaimgp:hover {
+    height: auto;
+    width: 150px;
+}
+
+.instaimgp {
+    height: auto;
+    width: 140px;
+    transform: translateY(1280%);
+}
+
